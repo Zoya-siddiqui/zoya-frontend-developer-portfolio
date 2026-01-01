@@ -87,7 +87,13 @@ export function LetsWorkTogether() {
                     <Mail className="text-green-600"/> <p>zoyas3423@gmail.com</p> 
                     </span>
                     </div>
-<ShimmerButton>
+<ShimmerButton  onClick={() => {
+    window.open(
+      "https://wa.me/919811839410",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  }}>
                         <a
                         className="text-md flex tracking-widest items-center px-2 py-2 gap-x-2  uppercase text-gray-100/50 transition-all duration-500"
                         style={{

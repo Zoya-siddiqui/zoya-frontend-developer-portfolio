@@ -32,7 +32,7 @@ const AboutUs = () => {
           </p>
 
       
-          <div className="grid grid-cols-2 gap-y-4 mx-auto">
+          <div className="grid grid-cols-2 md:text-md text-xs gap-y-4 mx-auto">
             <div className="flex items-center gap-3 text-neutral-300">
               <Phone size={18} className="text-green-400" />
               <span>+91 9811839410</span>
@@ -62,7 +62,8 @@ const AboutUs = () => {
             
 
               <a
-                href="#"
+                href="https://www.linkedin.com/in/zoya-siddiqui-5b598331a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
                 className="flex items-center gap-2 text-neutral-300 hover:text-white transition"
               >
                 <Linkedin size={20} className="text-green-400" />

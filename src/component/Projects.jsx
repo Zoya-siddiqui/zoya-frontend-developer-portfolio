@@ -121,7 +121,7 @@ const Projects = () => {
                             </div>
 
                             {/* Arrow */}
-                            <span className="text-xl text-green-500 transition-transform group-hover:translate-x-1">
+                            <span className="text-xl text-green-500 md:block hidden transition-transform group-hover:translate-x-1">
                                 <ArrowUpRight />
                             </span>
                         </a>

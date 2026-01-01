@@ -30,7 +30,7 @@ const downloadResume = () => {
         <div  className="relative w-full flex items-center justify-center">
             
                 <div
-                    className={cn("fixed top-10 inset-x-0 max-w-md mx-auto z-50 ")}
+                    className={cn("fixed top-10 inset-x-0 w-sm md:max-w-md mx-auto z-50 ")}
                     >
                     {/* <ShimmerButton className="mx-auto"> */}
                     <Menu setActive={setActive} className="z-80">

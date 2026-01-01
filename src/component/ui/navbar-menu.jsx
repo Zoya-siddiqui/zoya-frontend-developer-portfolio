@@ -25,7 +25,7 @@ export const MenuItem = ({
       <motion.p
        onClick={onClick}  
         transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white">
+        className="cursor-pointer text-black text-sm md:text-md hover:opacity-[0.9] dark:text-white">
         {item}
       </motion.p>
       {active !== null  && (
