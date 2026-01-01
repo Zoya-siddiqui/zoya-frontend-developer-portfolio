@@ -55,20 +55,20 @@ const Projects = () => {
             image: gitexpo,
             link: "#",
         },
-        {
-            title: "DocLabz",
-            subtitle:
-                "A technology services website showcasing offerings, projects, and client solutions with easy meeting scheduling.",
-            tech: [
-                "React",
-                "JavaScript",
-                "Tailwind CSS",
-                "Calendly Integration",
-                "UI/UX Design",
-            ],
-            image: doclabz,
-            link: "https://www.doclabz.com/",
-        },
+        // {
+        //     title: "DocLabz",
+        //     subtitle:
+        //         "A technology services website showcasing offerings, projects, and client solutions with easy meeting scheduling.",
+        //     tech: [
+        //         "React",
+        //         "JavaScript",
+        //         "Tailwind CSS",
+        //         "Calendly Integration",
+        //         "UI/UX Design",
+        //     ],
+        //     image: doclabz,
+        //     link: "https://www.doclabz.com/",
+        // },
     ]
 
     return (
