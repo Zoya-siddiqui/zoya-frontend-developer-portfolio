@@ -62,7 +62,7 @@ export function LetsWorkTogether() {
                         </h3>
                     </div>
 
-                    <div className="flex  gap-x-4  items-center ">
+                    <div className="flex flex-col md:flex-row gap-y-2  gap-y-0 md:gap-x-4  items-center ">
 
                     <span
                         className="text-sm flex tracking-widest items-center uppercase text-gray-100/50 transition-all duration-500"
